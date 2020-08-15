@@ -47,17 +47,16 @@ fun printing3Numbers(alist: IntArray){
                     print(alist[i])
                     print("-")
                 }
-            }else{
-                if (i%5 == 0){
+            }else if(i%5 == 0){
                     print(alist[i])
                     print("\n")
-                }else{
+            }
+                else{
                     print(alist[i])
                 }
             }
         }
     }
-}
 
 //Question Two
 //You a given a list of sorted counting numbers starting from 1 but there
